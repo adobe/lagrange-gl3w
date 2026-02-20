@@ -68,4 +68,6 @@ else()
 
 endif()
 
+target_link_libraries(gl3w PUBLIC ${CMAKE_DL_LIBS})
+
 set_target_properties(gl3w PROPERTIES FOLDER third_party)
